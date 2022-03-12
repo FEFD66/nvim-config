@@ -6,11 +6,7 @@ end
 local servers = {
   sumneko_lua = require "lsp.settings.lua", -- /lua/lsp/lua.lua
   rust_analyzer={},
-  ccls = {},
   verible ={},
-  html = {},
-  jsonls = {},
-  tsserver = {}
 }
 -- 自动安装 LanguageServers
 for name, _ in pairs(servers) do
