@@ -10,6 +10,7 @@ require 'plugin-config.comment'
 require 'plugin-config.autopairs'
 require 'plugin-config.nvim-tree'
 require 'plugin-config.gitsigns'
+require 'plugin-config.toggleterm'
 
 -- 设置配色(找不到配色会退回默认配色)
 vim.cmd [[ try | colorscheme gruvbox | catch /^Vim\%((\a\+)\)\=:E185/|
